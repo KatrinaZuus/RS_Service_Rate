@@ -5,10 +5,12 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import CustomersPage from './Page/CustomersPage'
 import EmployeePage from './Page/EmployeePage'
 import PageProvider from './Context/PageProvider'
+import Thank from './Page/Thank'
 
 const router = createBrowserRouter([
   {path: "/", element: <CustomersPage/>},
-  {path: "/employeePage", element: <EmployeePage/>}
+  {path: "/employeePage", element: <EmployeePage/>},
+  {path: "/thank", element: <Thank/>}
 ])
 
 createRoot(document.getElementById('root')!).render(

@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React, { useState  } from "react";
 import styled from "styled-components";
 import logo from  "/image/RS_logo.png";
 import { IServisEvolution } from "../types/ServiceEvolution";
+import { useNavigate } from "react-router-dom";
 
 export default function CostomersPage(){
-
+    
+    const navigate = useNavigate();
     const servicePlace = ["აირჩიეთ", "გეზი 'თბილისი'", "გეზი 'თბილისი2'", "გეზი 'აეროპორტი'"];
     const [rating] = useState<number[]>([1, 2, 3, 4, 5]);
 
@@ -31,17 +33,29 @@ export default function CostomersPage(){
             }));
         }
         async function handleSubmit() {
-            const ressponse = await fetch(
+           
+            const response = await fetch(
               "http://localhost:3000/service", {
                 method: "POST",
                 headers: {
-                  "content-Type": "application-json",
+                  "Content-Type": "application-json",
                 },
                 body: JSON.stringify(evaluation),
               }
             );
-          }
-     
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const data = await response.json();
+            console.log(data)
+            setEvaluation({
+                servicePlace: servicePlace[0],
+                evaluation: "",
+                comments: ""
+            });
+            setSelectedRate(null); 
+            navigate("/thank")
+          } 
 
     return(
         <>
@@ -100,6 +114,12 @@ const Cont = styled.div`
         border: none;
         width: 100px;
         margin-left: 235px;
+        font-size: 18px;
+        text-shadow: 0 0 20px #757575;
+        cursor: pointer;
+        :hover{
+            background-color: red;
+        }
     }
 `
 const Header = styled.div`
@@ -110,6 +130,7 @@ const Header = styled.div`
     & > p{
         opacity: 0.7;
         font-style: italic;
+        font-weight: 600;
     }
     img{
         width: 80px;
@@ -123,7 +144,8 @@ const Couple = styled.form`
     gap: 10px;
     opacity: 0.7;
     select{
-        padding: 8px;
+        padding: 10px;
+        border-radius: 8px;
     }
     label{
         margin-left: 8px

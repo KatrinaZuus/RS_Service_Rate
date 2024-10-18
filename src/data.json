@@ -1,52 +1,52 @@
 {
   "service": [
     {
-      "id": "a818",
+      "id": "0560",
       "servicePlace": "გეზი 'თბილისი2'",
-      "evaluation": "2",
+      "evaluation": "3",
+      "comments": "ჰჰჰ"
+    },
+    {
+      "id": "a01f",
+      "servicePlace": "გეზი 'თბილისი'",
+      "evaluation": "5",
       "comments": "kkkk"
     },
     {
-      "id": "ccb1",
-      "servicePlace": "გეზი 'თბილისი'",
-      "evaluation": "4",
-      "comments": "ფფფფდდ"
+      "id": "6dd7",
+      "servicePlace": "",
+      "evaluation": "",
+      "comments": ""
     },
     {
-      "id": "b7cb",
-      "servicePlace": "გეზი 'თბილისი'",
+      "id": "2aaf",
+      "servicePlace": "გეზი 'თბილისი2'",
       "evaluation": "2",
-      "comments": "kato"
+      "comments": "kkkkmmmm"
     },
     {
-      "id": "6773",
+      "id": "d199",
+      "servicePlace": "გეზი 'თბილისი2'",
+      "evaluation": "2",
+      "comments": "jjj"
+    },
+    {
+      "id": "5b72",
       "servicePlace": "გეზი 'თბილისი2'",
       "evaluation": "4",
-      "comments": "kato + zuus"
+      "comments": "ძალიან მომეწონა მომსახურება. ძალიან მომეწონა მომსახურება. ძალიან მომეწონა მომსახურება. ძალიან მომეწონა მომსახურება. ძალიან მომეწონა მომსახურება. ძალიან მომეწონა მომსახურება. ძალიან მომეწონა მომსახურება. ძალიან მომეწონა მომსახურება. ძალიან მომეწონა მომსახურება. ძალიან მომეწონა მომსახურება. ძალიან მომეწონა მომსახურება. "
     },
     {
-      "id": "6222",
+      "id": "414c",
       "servicePlace": "გეზი 'აეროპორტი'",
       "evaluation": "5",
-      "comments": "kato + zuus = love"
+      "comments": "ბრავოოოო"
     },
     {
-      "id": "5b67",
-      "servicePlace": "გეზი 'თბილისი2'",
-      "evaluation": "4",
-      "comments": "kato + zuus = love kato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = lovekato + zuus = love"
-    },
-    {
-      "id": "b3b5",
-      "servicePlace": "გეზი 'თბილისი2'",
-      "evaluation": "4",
-      "comments": "I love you ... I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ...I love you ..."
-    },
-    {
-      "id": "9cd9",
-      "servicePlace": "გეზი 'თბილისი2'",
-      "evaluation": "4",
-      "comments": "katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  katunaaaaa zuuus  "
+      "id": "156c",
+      "servicePlace": "გეზი 'თბილისი'",
+      "evaluation": "1",
+      "comments": "უფ ეს რა იყო"
     }
   ]
 }

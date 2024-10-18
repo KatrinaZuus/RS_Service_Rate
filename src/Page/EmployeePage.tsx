@@ -1,9 +1,9 @@
-import React from "react";
 import styled from "styled-components";
 import data from "../data.json";
 import logo from "/image/RS_logo.png";
 import * as XLSX from 'xlsx';
 import {saveAs} from "file-saver";
+import { IServisEvolution } from "../types/ServiceEvolution";
 
 export default function EmployeePage(){
 const evaluationForAdmin = data.service
@@ -41,7 +41,7 @@ const downloadExcel = () => {
             </Title>
 
             <div>
-            {evaluationForAdmin?.map((item, index: number)=>(
+            {evaluationForAdmin?.map((item: IServisEvolution, index: number)=>(
                 <Grid 
                 key={index}>
                     <p className="N">{index+1}</p>

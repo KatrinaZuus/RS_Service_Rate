@@ -1,6 +1,6 @@
 import { createContext, useState, ReactNode, useContext} from "react";
 import { IType } from "../types/ContextType";
-import { IServisEvolution, TServisEvolution } from "../types/ServiceEvolution";
+import { TServisEvolution } from "../types/ServiceEvolution";
 
 
 const ServiceContext = createContext<IType>({

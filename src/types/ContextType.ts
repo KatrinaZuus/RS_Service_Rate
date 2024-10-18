@@ -1,4 +1,4 @@
-import { IServisEvolution, TServisEvolution } from "./ServiceEvolution";
+import { IServisEvolution } from "./ServiceEvolution";
 
 export interface IType {
     evaluationData: IServisEvolution[];
