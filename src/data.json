@@ -23,6 +23,18 @@
       "servicePlace": "გეზი 'აეროპორტი'",
       "evaluation": "1",
       "comments": "nanuu"
+    },
+    {
+      "id": "c2f9",
+      "servicePlace": "გეზი 'თბილისი2'",
+      "evaluation": "2",
+      "comments": ""
+    },
+    {
+      "id": "bbc8",
+      "servicePlace": "",
+      "evaluation": "1",
+      "comments": ""
     }
   ]
 }

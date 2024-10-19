@@ -32,8 +32,8 @@ export default function CostomersPage(){
                 servicePlace: event.target.value
             }));
         }
-        async function handleSubmit() {
-           
+        async function handleSubmit(event: any) {
+            event.preventDefault();
             const response = await fetch(
               "http://localhost:3000/service", {
                 method: "POST",
@@ -99,7 +99,7 @@ export default function CostomersPage(){
             
             />
 
-            <button type="button" onClick={handleSubmit}>გაგზავნა</button>
+            <button type="button" onMouseDown={handleSubmit}>გაგზავნა</button>
         </Cont>
         </>
     )
