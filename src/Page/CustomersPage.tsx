@@ -86,7 +86,7 @@ export default function CostomersPage(){
                         key = {index}
                         onClick={() => handleRate(item)}
                         style={{
-                            backgroundColor: selectedRate === item ? "green" : "#fff",
+                            backgroundColor: selectedRate === item ? "red" : "#fff",
                             color: selectedRate === item ? "#fff" : "#000", // Optional: Change text color for better visibility
                         }}
                         >{item}</p>
