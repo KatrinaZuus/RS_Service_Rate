@@ -86,7 +86,7 @@ export default function CostomersPage(){
                         key = {index}
                         onClick={() => handleRate(item)}
                         style={{
-                            backgroundColor: selectedRate === item ? "red" : "#fff",
+                            backgroundColor: selectedRate === item ? "green" : "#fff",
                             color: selectedRate === item ? "#fff" : "#000", // Optional: Change text color for better visibility
                         }}
                         >{item}</p>
@@ -116,9 +116,10 @@ const Cont = styled.div`
         margin-left: 235px;
         font-size: 18px;
         text-shadow: 0 0 20px #757575;
+        touch-action: manipulation;
         cursor: pointer;
         :hover{
-            background-color: red;
+            background-color: #61e661;
         }
     }
 `

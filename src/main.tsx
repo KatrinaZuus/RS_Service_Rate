@@ -9,7 +9,7 @@ import Thank from './Page/Thank'
 
 const router = createBrowserRouter([
   {path: "/", element: <CustomersPage/>},
-  {path: "/employeePage", element: <EmployeePage/>},
+  {path: "/resume", element: <EmployeePage/>},
   {path: "/thank", element: <Thank/>}
 ])
 
