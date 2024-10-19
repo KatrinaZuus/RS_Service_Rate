@@ -99,7 +99,7 @@ export default function CostomersPage(){
             
             />
 
-            <button onClick={handleSubmit}>გაგზავნა</button>
+            <button onTouchStart={handleSubmit}>გაგზავნა</button>
         </Cont>
         </>
     )
